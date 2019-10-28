@@ -51,7 +51,8 @@
       <HintPath>..\packages\Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.2.1.0\lib\net461\Microsoft.Azure.CognitiveServices.Language.LUIS.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder, Version=4.5.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Bot.Builder.4.5.1\lib\netstandard2.0\Microsoft.Bot.Builder.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\botbuilder-dotnet\libraries\Microsoft.Bot.Builder\bin\Release\netstandard2.0\Microsoft.Bot.Builder.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder.AI.Luis, Version=4.5.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bot.Builder.AI.Luis.4.5.1\lib\netstandard2.0\Microsoft.Bot.Builder.AI.Luis.dll</HintPath>

@@ -11,7 +11,7 @@ const restify = require('restify');
 // See https://aka.ms/bot-services to learn more about the different parts of a bot.
 const { BotFrameworkAdapter } = require('botbuilder');
 
-const { TeamsConversationBot } = require('./bots/teamsConversationBot');
+const { TeamsFileUploadBot } = require('./bots/teamsFileUploadBot');
 
 // Read botFilePath and botFileSecret from .env file.
 const ENV_FILE = path.join(__dirname, '.env');
@@ -43,7 +43,7 @@ adapter.onTurnError = async (context, error) => {
 };
 
 // Create the bot that will handle incoming messages.
-const bot = new TeamsConversationBot();
+const bot = new TeamsFileUploadBot();
 
 // Create HTTP server.
 const server = restify.createServer();
